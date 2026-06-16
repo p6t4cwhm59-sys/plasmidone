@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>PlasmidLab PWA v2.3.0</title>
+<title>PlasmidLab PWA v2.4.1</title>
 <style>
 :root{
   --bg:#f7f8fb;--panel:#fff;--text:#20242a;--muted:#687184;--line:#dfe4ee;--pri:#2f6fed;--pri2:#e8f0ff;--good:#168a45;--bad:#c0392b;--warn:#b36b00;--shadow:0 8px 24px rgba(17,24,39,.08);
@@ -244,9 +244,9 @@ header{position:relative!important;top:auto!important;z-index:20!important}
 
 </style>
 
-<!-- PlasmidLab PWA metadata v2.3.0 -->
+<!-- PlasmidLab PWA metadata v2.4.1 -->
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#244b90">
+<meta name="theme-color" content="#12345f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="PlasmidLab">
@@ -254,7 +254,7 @@ header{position:relative!important;top:auto!important;z-index:20!important}
 <link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
 </head>
 <body>
-<header><h1>PlasmidLab PWA v2.3.0</h1><div class="sub">iPhone/iPad 主屏幕应用。支持 SnapGene .dna、GenBank、FASTA；导入后自动保存到设备质粒库。 <button id="toggleSidebarBtn" type="button" class="headerBtn">隐藏左侧导入栏</button></div></header>
+<header><h1>PlasmidLab PWA v2.4.1</h1><div class="sub">iPhone/iPad 主屏幕应用。支持 SnapGene .dna、GenBank、FASTA 和 Sanger .ab1 测序比对。 <button id="toggleSidebarBtn" type="button" class="headerBtn">隐藏左侧导入栏</button></div></header>
 <div class="app" id="appRoot">
   <button id="sidebarHandle" class="sidebarHandle" type="button">显示导入栏</button>
   <aside id="leftSidebar">
@@ -8244,6 +8244,7 @@ renderAll();
   });
 })();
 </script>
+<script src="alignment.js"></script>
 <script id="plasmidlab-v230-ios-dna-import">
 (function(){
   'use strict';

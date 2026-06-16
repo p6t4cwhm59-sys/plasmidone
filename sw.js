@@ -1,7 +1,8 @@
-const CACHE_NAME = 'plasmidlab-pwa-v230';
+const CACHE_NAME = 'plasmidlab-pwa-v241';
 const APP_SHELL = [
   './',
   './index.html',
+  './alignment.js',
   './manifest.json',
   './icon-180.png',
   './icon-192.png',

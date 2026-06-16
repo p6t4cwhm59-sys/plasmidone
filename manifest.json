@@ -2,13 +2,13 @@
   "id": "./",
   "name": "PlasmidLab 质粒工具",
   "short_name": "PlasmidLab",
-  "description": "在 iPhone 和 iPad 上导入、保存并查看 SnapGene .dna、GenBank 和 FASTA 质粒文件。",
+  "description": "在 iPhone 和 iPad 上导入、保存、查看 SnapGene .dna / GenBank / FASTA 质粒文件，并进行 Sanger .ab1 测序比对。",
   "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f7f8fb",
-  "theme_color": "#244b90",
+  "theme_color": "#12345f",
   "orientation": "any",
   "icons": [
     {

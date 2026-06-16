@@ -1,6 +1,6 @@
 # PlasmidLab PWA
 
-这是用于 iPhone/iPad 主屏幕的质粒工具，支持 SnapGene `.dna`、GenBank、FASTA 和项目 JSON。
+这是用于 iPhone/iPad 主屏幕的质粒工具，支持 SnapGene `.dna`、GenBank、FASTA、项目 JSON 和 Sanger `.ab1` 测序比对。
 
 ## 上传到 GitHub Pages
 
@@ -35,3 +35,10 @@
 - 本程序采用正确的替代方式：第一次选择文件后，将质粒内容复制到 PWA 自己的设备数据库。
 - 不要删除主屏幕图标、清除 Safari 网站数据，或更换 GitHub Pages 地址，否则 iOS 可能删除或隔离原质粒库。
 - 建议定期使用“导出整个质粒库”制作备份。
+
+## Sanger `.ab1` 测序比对
+
+1. 先打开一个参考质粒。
+2. 点击顶部视图里的“测序比对”。
+3. 选择一个或多个 `.ab1` / `.abi` 文件。
+4. 程序会自动裁剪低质量两端、判断正向/反向互补，并列出错配、插入、缺失和 CDS 氨基酸影响。
